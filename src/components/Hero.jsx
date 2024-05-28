@@ -1,27 +1,5 @@
 import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons-react";
-
-const skillsIcons = [
-  {
-    img: "https://skillicons.dev/icons?i=html",
-    label: "HTML",
-    id: 1,
-  },
-  {
-    img: "https://skillicons.dev/icons?i=css",
-    label: "CSS",
-    id: 2,
-  },
-  {
-    img: "https://skillicons.dev/icons?i=js",
-    label: "Javascript",
-    id: 3,
-  },
-  {
-    img: "https://skillicons.dev/icons?i=react",
-    label: "React",
-    id: 4,
-  },
-];
+import { skillsIcons } from "../assets/assets";
 
 const Hero = () => {
   return (

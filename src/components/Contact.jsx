@@ -1,4 +1,4 @@
-import { IconMail, IconMapSearch } from "@tabler/icons-react";
+import { IconMail, IconMapSearch, IconPhone } from "@tabler/icons-react";
 
 const Contact = () => {
   return (
@@ -13,15 +13,6 @@ const Contact = () => {
             <div className="contact-icons">
               <div className="contact-icon-box">
                 <span>
-                  <IconMapSearch width={30} height={30} />
-                </span>
-                <div className="contact-info">
-                  <h3>Location</h3>
-                  <p>Suceava, Romania</p>
-                </div>
-              </div>
-              <div className="contact-icon-box">
-                <span>
                   <IconMail width={30} height={30} />
                 </span>
                 <div className="contact-info">
@@ -29,6 +20,24 @@ const Contact = () => {
                   <a href="mailto:robertomadalin18@gmail.com">
                     robertomadalin18@gmail.com
                   </a>
+                </div>
+              </div>
+              <div className="contact-icon-box">
+                <span>
+                  <IconPhone width={30} height={30} />
+                </span>
+                <div className="contact-info">
+                  <h3>Phone</h3>
+                  <p>+40758534129</p>
+                </div>
+              </div>
+              <div className="contact-icon-box">
+                <span>
+                  <IconMapSearch width={30} height={30} />
+                </span>
+                <div className="contact-info">
+                  <h3>Location</h3>
+                  <p>Suceava, Romania</p>
                 </div>
               </div>
             </div>
