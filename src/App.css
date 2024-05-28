@@ -38,7 +38,7 @@ body {
 }
 
 .mobile-menu:hover {
-  color: #147efb;
+  color: #dc5f00;
 }
 
 @media (max-width: 900px) {
@@ -71,7 +71,7 @@ body {
 }
 
 .mobile-nav span:hover {
-  color: #147efb;
+  color: #dc5f00;
 }
 
 .mobile-nav ul {
@@ -123,7 +123,7 @@ nav {
 }
 
 nav ul a:hover {
-  color: #147efb;
+  color: #dc5f00;
 }
 
 @media (max-width: 900px) {
@@ -226,7 +226,7 @@ nav ul a:hover {
 }
 
 .hero-text span a:hover {
-  color: #147efb;
+  color: #dc5f00;
 }
 
 .hero-img {
@@ -351,7 +351,7 @@ nav ul a:hover {
 
 .text-side h3 {
   font-size: 1.25rem;
-  color: #147efb;
+  color: #dc5f00;
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 1rem;
@@ -409,7 +409,7 @@ nav ul a:hover {
 }
 
 .contact-title p {
-  color: #147efb;
+  color: #dc5f00;
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 1rem;
@@ -457,7 +457,7 @@ nav ul a:hover {
   height: 5rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  color: #147efb;
+  color: #dc5f00;
 }
 
 .contact-info {
@@ -471,16 +471,19 @@ nav ul a:hover {
   color: #2d2e32;
 }
 
-.contact-info a,
-.contact-info p {
+.contact-info a {
   color: #767676;
   text-decoration: none;
   cursor: pointer;
 }
 
+.contact-info P {
+  color: #767676;
+}
+
 .contact-info a:hover,
 .contact-info p:hover {
-  color: #147efb;
+  color: #dc5f00;
   transition: color 0.3s;
 }
 
@@ -528,7 +531,7 @@ footer {
 
 .projects-content h2 {
   margin-bottom: 2rem;
-  color: #147efb;
+  color: #dc5f00;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.25rem;
@@ -565,7 +568,7 @@ footer {
 
 .project-description a {
   text-decoration: none;
-  color: #147efb;
+  color: #dc5f00;
   font-size: 1.5rem;
   font-weight: 600;
 }

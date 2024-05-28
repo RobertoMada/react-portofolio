@@ -16,7 +16,7 @@ const AboutMe = () => {
                 Front-end Developer <br /> based in Suceava, Romania 📍
               </h4>
               <p>
-                Hey, my name is Madalin Holovenciuc, With a passion for web
+                Hey, my name is Madalin Holovenciuc, with a passion for web
                 development, I am a technology enthusiast determined to carve my
                 path in the exciting world of web programming. I have a profound
                 desire to learn and grow in this dynamic and opportunity-rich

@@ -1,4 +1,5 @@
-import { IconMail, IconMapSearch, IconPhone } from "@tabler/icons-react";
+import { IconMail, IconFileCv, IconPhone } from "@tabler/icons-react";
+import cv from "../assets/CV.pdf";
 
 const Contact = () => {
   return (
@@ -33,11 +34,13 @@ const Contact = () => {
               </div>
               <div className="contact-icon-box">
                 <span>
-                  <IconMapSearch width={30} height={30} />
+                  <IconFileCv width={30} height={30} />
                 </span>
                 <div className="contact-info">
-                  <h3>Location</h3>
-                  <p>Suceava, Romania</p>
+                  <h3>Resume</h3>
+                  <a href={cv} target="_blank">
+                    My CV
+                  </a>
                 </div>
               </div>
             </div>
