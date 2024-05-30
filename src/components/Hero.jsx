@@ -12,7 +12,7 @@ const Hero = () => {
                 <h1>Front-End React Developer</h1>
                 <p>
                   Hi, I'm Madalin Holovenciuc. A passionate Front-End Developer
-                  based in Suceva, Romania. 📍
+                  based in Suceava, Romania. 📍
                 </p>
                 <span>
                   <a
